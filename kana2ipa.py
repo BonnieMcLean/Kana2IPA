@@ -138,6 +138,8 @@ def kana2ipa(word):
 
      word=''.join(word_list)
      word=word.replace('oɯ','oː')
+     word=word.replace('ー','ː')
+
      return word
      
              
